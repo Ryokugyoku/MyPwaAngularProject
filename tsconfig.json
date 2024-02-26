@@ -25,6 +25,7 @@
     ]
   },
   "angularCompilerOptions": {
+    "localize": ["ja", "en-US", "es"],
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
