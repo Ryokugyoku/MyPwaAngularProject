@@ -21,8 +21,8 @@ export class AppComponent{
   }
   protected _selectedLanguage : string = "";
   title = $localize`サーバ管理用WEBページβ`
-  changeLanguage() {
-    $localize.locale = this.selectedLanguage;
+  changeLanguage(){
+    $localize.locale=this.selectedLanguage;
     window.location.reload();
   }
 

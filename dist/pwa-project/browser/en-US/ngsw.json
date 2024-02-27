@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1708956115221,
+  "index": "/pwa-project/en-US/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-project/en-US/chunk-SIAZ2LOB.js",
+        "/pwa-project/en-US/chunk-TRSUXVLL.js",
+        "/pwa-project/en-US/favicon.ico",
+        "/pwa-project/en-US/index.html",
+        "/pwa-project/en-US/main-H4H2KP7Q.js",
+        "/pwa-project/en-US/manifest.webmanifest",
+        "/pwa-project/en-US/polyfills-INJ56P4I.js",
+        "/pwa-project/en-US/styles-JYFPXGYX.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-project/en-US/assets/i18n/en.json",
+        "/pwa-project/en-US/assets/i18n/ja.json",
+        "/pwa-project/en-US/assets/icons/icon-128x128.png",
+        "/pwa-project/en-US/assets/icons/icon-144x144.png",
+        "/pwa-project/en-US/assets/icons/icon-152x152.png",
+        "/pwa-project/en-US/assets/icons/icon-192x192.png",
+        "/pwa-project/en-US/assets/icons/icon-384x384.png",
+        "/pwa-project/en-US/assets/icons/icon-512x512.png",
+        "/pwa-project/en-US/assets/icons/icon-72x72.png",
+        "/pwa-project/en-US/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwa-project/en-US/assets/i18n/en.json": "4f1ff4671f3b7888a55703f44da47fb276fa2e85",
+    "/pwa-project/en-US/assets/i18n/ja.json": "6e3c1cef73f32e265de906a33d9b991418dbd515",
+    "/pwa-project/en-US/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pwa-project/en-US/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pwa-project/en-US/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pwa-project/en-US/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pwa-project/en-US/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pwa-project/en-US/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pwa-project/en-US/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pwa-project/en-US/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pwa-project/en-US/chunk-SIAZ2LOB.js": "c4417bbead5dfad83b627a9805d3057e41ff0b1f",
+    "/pwa-project/en-US/chunk-TRSUXVLL.js": "45e3ffb8bbc5208ffe655fe2aa0e34241eef24e2",
+    "/pwa-project/en-US/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pwa-project/en-US/index.html": "2e10fcd2a1662e31ef89940fa07f5ce0ee9fbac5",
+    "/pwa-project/en-US/main-H4H2KP7Q.js": "c705b0351bc9bec5e89c559ee1e9a6edd954f76e",
+    "/pwa-project/en-US/manifest.webmanifest": "cf21e1356e336d213d5244964163fa143f46a692",
+    "/pwa-project/en-US/polyfills-INJ56P4I.js": "4d6569d70d8b8d35b9b0b27416c99cedbb121f0e",
+    "/pwa-project/en-US/styles-JYFPXGYX.css": "5495dd6e53ae1019c2ad82b7f296a41e21d6de0d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
