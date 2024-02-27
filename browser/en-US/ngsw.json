@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1709038837153,
+  "index": "https://ryokugyoku.github.io/pwa-project/en-US/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ryokugyoku.github.io/pwa-project/en-US/chunk-3DIL5YOT.js",
+        "https://ryokugyoku.github.io/pwa-project/en-US/chunk-ECAWT5XY.js",
+        "https://ryokugyoku.github.io/pwa-project/en-US/favicon.ico",
+        "https://ryokugyoku.github.io/pwa-project/en-US/index.html",
+        "https://ryokugyoku.github.io/pwa-project/en-US/main-Z7X7S3GJ.js",
+        "https://ryokugyoku.github.io/pwa-project/en-US/manifest.webmanifest",
+        "https://ryokugyoku.github.io/pwa-project/en-US/polyfills-5URKTPXZ.js",
+        "https://ryokugyoku.github.io/pwa-project/en-US/styles-JYFPXGYX.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/i18n/en.json",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/i18n/ja.json",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-128x128.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-144x144.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-152x152.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-192x192.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-384x384.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-512x512.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-72x72.png",
+        "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/i18n/en.json": "4f1ff4671f3b7888a55703f44da47fb276fa2e85",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/i18n/ja.json": "6e3c1cef73f32e265de906a33d9b991418dbd515",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://ryokugyoku.github.io/pwa-project/en-US/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://ryokugyoku.github.io/pwa-project/en-US/chunk-3DIL5YOT.js": "04fdde2d0ab87b262bb38e662daf6aa310ef8dcd",
+    "https://ryokugyoku.github.io/pwa-project/en-US/chunk-ECAWT5XY.js": "3e0d583970ab17a890bf5a0cd96e8809a5f26147",
+    "https://ryokugyoku.github.io/pwa-project/en-US/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://ryokugyoku.github.io/pwa-project/en-US/index.html": "791afa2e71a449719de71aee532c4179a8860b88",
+    "https://ryokugyoku.github.io/pwa-project/en-US/main-Z7X7S3GJ.js": "44847917f9e97709a0d32e7ab0f01a09318a5e8d",
+    "https://ryokugyoku.github.io/pwa-project/en-US/manifest.webmanifest": "cf21e1356e336d213d5244964163fa143f46a692",
+    "https://ryokugyoku.github.io/pwa-project/en-US/polyfills-5URKTPXZ.js": "3604aecb3f8a52f0ede19d015f0cc75ee1fe5b75",
+    "https://ryokugyoku.github.io/pwa-project/en-US/styles-JYFPXGYX.css": "5495dd6e53ae1019c2ad82b7f296a41e21d6de0d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
