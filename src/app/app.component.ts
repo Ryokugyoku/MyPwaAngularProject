@@ -1,25 +1,25 @@
-import {Component,OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from '@angular/forms';
 import { Location } from '@angular/common';
+
 @Component({
   selector: 'app-body',
   standalone: true,
   imports: [RouterOutlet, FormsModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
-
-
 export class AppComponent implements OnInit {
-  protected _selectedLanguage : string = "";
-  title = $localize`サーバ管理用WEBページβ`
+  private readonly _selectedLanguage: string = '';
+  title = $localize`サーバ管理用WEBページβ`;
+
   constructor(private readonly location: Location) {}
 
-  ngOnInit() {
-    const lang = navigator.language;
-      this.location.go('/'+lang);
+  ngOnInit(): void {
+    const supportedLanguages = ['en', 'ja'];
+    const lang = navigator.language.split('-')[0];
+    const redirectLang = supportedLanguages.includes(lang) ? lang : 'en-US';
+    setTimeout(() => this.location.go('/' + redirectLang), 100);
   }
-
 }
-
