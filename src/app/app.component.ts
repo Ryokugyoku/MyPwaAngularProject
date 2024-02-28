@@ -17,12 +17,8 @@ export class AppComponent implements OnInit {
   constructor(private readonly location: Location) {}
 
   ngOnInit() {
-    const lang = navigator.language.split('-')[0];
-    if (lang === 'en') {
-      // 何もしない
-    } else {
-      this.location.go('/ja');
-    }
+    const lang = navigator.language;
+      this.location.go('/'+lang);
   }
 
 }
