@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1709123245438,
+  "timestamp": 1709123969047,
   "index": "/PwaProject/es/index.html",
   "assetGroups": [
     {
@@ -11,11 +11,11 @@
         "ignoreVary": true
       },
       "urls": [
-        "/PwaProject/es/chunk-3DIL5YOT.js",
-        "/PwaProject/es/chunk-ECAWT5XY.js",
+        "/PwaProject/es/chunk-MKCV7K4I.js",
+        "/PwaProject/es/chunk-UEK5DRX4.js",
         "/PwaProject/es/favicon.ico",
         "/PwaProject/es/index.html",
-        "/PwaProject/es/main-R7F6ZM3S.js",
+        "/PwaProject/es/main-JMOVQDTY.js",
         "/PwaProject/es/manifest.webmanifest",
         "/PwaProject/es/polyfills-5URKTPXZ.js",
         "/PwaProject/es/styles-JYFPXGYX.css"
@@ -52,11 +52,11 @@
     "/PwaProject/es/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/PwaProject/es/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/PwaProject/es/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/PwaProject/es/chunk-3DIL5YOT.js": "04fdde2d0ab87b262bb38e662daf6aa310ef8dcd",
-    "/PwaProject/es/chunk-ECAWT5XY.js": "3e0d583970ab17a890bf5a0cd96e8809a5f26147",
+    "/PwaProject/es/chunk-MKCV7K4I.js": "80187ccff6c295f19a4555f19cf8bc571fa101e7",
+    "/PwaProject/es/chunk-UEK5DRX4.js": "5d04dd6aa23c97a30ff9654eeb382ac32dadb562",
     "/PwaProject/es/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/PwaProject/es/index.html": "5477477e4e21c4f398a6dd99ab2ec7390b1b55cc",
-    "/PwaProject/es/main-R7F6ZM3S.js": "cf7a28cc66a121642e549ff02b1a16ba0c6e4ae7",
+    "/PwaProject/es/index.html": "49aa639f052bfc62614e9791b41fff2cfd26c91d",
+    "/PwaProject/es/main-JMOVQDTY.js": "552a784ab5ba20057029c36c2778108c87cb08d2",
     "/PwaProject/es/manifest.webmanifest": "cf21e1356e336d213d5244964163fa143f46a692",
     "/PwaProject/es/polyfills-5URKTPXZ.js": "b77d423f0db68e614eb71b4675f3d83194bdab7f",
     "/PwaProject/es/styles-JYFPXGYX.css": "5495dd6e53ae1019c2ad82b7f296a41e21d6de0d"
