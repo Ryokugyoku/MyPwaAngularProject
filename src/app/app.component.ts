@@ -1,7 +1,7 @@
-import {Component} from '@angular/core';
+import {Component,OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {FormsModule} from "@angular/forms";
-import {$localize} from "@angular/localize/init";
+import { Location } from '@angular/common';
 @Component({
   selector: 'app-body',
   standalone: true,
@@ -11,19 +11,18 @@ import {$localize} from "@angular/localize/init";
 })
 
 
-export class AppComponent{
-  get selectedLanguage(): string {
-    return this._selectedLanguage;
-  }
-
-  set selectedLanguage(value: string) {
-    this._selectedLanguage = value;
-  }
+export class AppComponent implements OnInit {
   protected _selectedLanguage : string = "";
   title = $localize`サーバ管理用WEBページβ`
-  changeLanguage(){
-    $localize.locale=this.selectedLanguage;
-    window.location.reload();
+  constructor(private readonly location: Location) {}
+
+  ngOnInit() {
+    const lang = navigator.language.split('-')[0];
+    if (lang === 'en') {
+      // 何もしない
+    } else {
+      this.location.go('/ja');
+    }
   }
 
 }
