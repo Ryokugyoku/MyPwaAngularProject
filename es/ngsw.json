@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1709124574687,
+  "timestamp": 1709125429538,
   "index": "/PwaProject/es/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/PwaProject/es/chunk-UEK5DRX4.js",
         "/PwaProject/es/favicon.ico",
         "/PwaProject/es/index.html",
-        "/PwaProject/es/main-JMOVQDTY.js",
+        "/PwaProject/es/main-6HCLOMTK.js",
         "/PwaProject/es/manifest.webmanifest",
         "/PwaProject/es/polyfills-5URKTPXZ.js",
         "/PwaProject/es/styles-JYFPXGYX.css"
@@ -55,8 +55,8 @@
     "/PwaProject/es/chunk-MKCV7K4I.js": "80187ccff6c295f19a4555f19cf8bc571fa101e7",
     "/PwaProject/es/chunk-UEK5DRX4.js": "5d04dd6aa23c97a30ff9654eeb382ac32dadb562",
     "/PwaProject/es/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/PwaProject/es/index.html": "49aa639f052bfc62614e9791b41fff2cfd26c91d",
-    "/PwaProject/es/main-JMOVQDTY.js": "552a784ab5ba20057029c36c2778108c87cb08d2",
+    "/PwaProject/es/index.html": "b5e74cddbbc2aec1a38bc43d8c8d3868f9c4ef60",
+    "/PwaProject/es/main-6HCLOMTK.js": "2229378cc5cff1c77da98a7fec0b4a7edb186f1d",
     "/PwaProject/es/manifest.webmanifest": "cf21e1356e336d213d5244964163fa143f46a692",
     "/PwaProject/es/polyfills-5URKTPXZ.js": "b77d423f0db68e614eb71b4675f3d83194bdab7f",
     "/PwaProject/es/styles-JYFPXGYX.css": "5495dd6e53ae1019c2ad82b7f296a41e21d6de0d"
