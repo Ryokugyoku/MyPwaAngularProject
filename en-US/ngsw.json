@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1709456356936,
+  "timestamp": 1709457037064,
   "index": "/PwaProject/en-US/index.html",
   "assetGroups": [
     {
@@ -11,11 +11,11 @@
         "ignoreVary": true
       },
       "urls": [
-        "/PwaProject/en-US/chunk-QW6DIYOZ.js",
-        "/PwaProject/en-US/chunk-UL6KGAM6.js",
+        "/PwaProject/en-US/chunk-MKCV7K4I.js",
+        "/PwaProject/en-US/chunk-UEK5DRX4.js",
         "/PwaProject/en-US/favicon.ico",
         "/PwaProject/en-US/index.html",
-        "/PwaProject/en-US/main-47HR4FZ3.js",
+        "/PwaProject/en-US/main-OKUTUMCF.js",
         "/PwaProject/en-US/manifest.webmanifest",
         "/PwaProject/en-US/polyfills-5URKTPXZ.js",
         "/PwaProject/en-US/styles-JYFPXGYX.css"
@@ -52,11 +52,11 @@
     "/PwaProject/en-US/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/PwaProject/en-US/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/PwaProject/en-US/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/PwaProject/en-US/chunk-QW6DIYOZ.js": "4cfb00267f6dff4911ff777a88411b8fc47447c4",
-    "/PwaProject/en-US/chunk-UL6KGAM6.js": "131bd6b29bff8bd1898758a6316afbc46716b958",
+    "/PwaProject/en-US/chunk-MKCV7K4I.js": "80187ccff6c295f19a4555f19cf8bc571fa101e7",
+    "/PwaProject/en-US/chunk-UEK5DRX4.js": "5d04dd6aa23c97a30ff9654eeb382ac32dadb562",
     "/PwaProject/en-US/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/PwaProject/en-US/index.html": "3abb687dbec927dcb01f1b758479e81e4e1ecc58",
-    "/PwaProject/en-US/main-47HR4FZ3.js": "f2584e7014ef43700420e7e7f922cfd52a30484c",
+    "/PwaProject/en-US/index.html": "554cec978add840d9b73ea36cc4d88355e5bf2af",
+    "/PwaProject/en-US/main-OKUTUMCF.js": "2ad1eb9c69e7670f6582d5d4dc26218255f937ea",
     "/PwaProject/en-US/manifest.webmanifest": "cf21e1356e336d213d5244964163fa143f46a692",
     "/PwaProject/en-US/polyfills-5URKTPXZ.js": "3604aecb3f8a52f0ede19d015f0cc75ee1fe5b75",
     "/PwaProject/en-US/styles-JYFPXGYX.css": "5495dd6e53ae1019c2ad82b7f296a41e21d6de0d"
