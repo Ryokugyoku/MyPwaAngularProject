@@ -11,15 +11,12 @@ import { Location } from '@angular/common';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  private readonly _selectedLanguage: string = '';
   title = $localize`サーバ管理用WEBページβ`;
 
-  constructor(private readonly location: Location) {}
+  constructor(private location: Location) {}
 
   ngOnInit(): void {
-    const supportedLanguages = ['en', 'ja'];
-    const lang = navigator.language.split('-')[0];
-    const redirectLang = supportedLanguages.includes(lang) ? lang : 'en-US';
-    setTimeout(() => this.location.go('/' + redirectLang), 100);
+    const defaultLang = 'en'; // デフォルト言語
+    this.location.go(`/${defaultLang}`);
   }
 }
